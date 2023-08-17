@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JF Portfolio</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Jess Frawley</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class='bx bx-menu' id="menu-icon"></i>
+          <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Work</a>
+            <a href="#">Resume & Contact</a>
+        </nav>
+    </header>
+
+    <div class="about_container">
+      <div class="about_contents">
+          <section class="infoSection">
+           
+            <p> Hi, I’m Jess, a UX researcher and designer dedicated to finding solutions and creating unforgettable experiences through prioritizing testing, data, and exceptional visual design. </p>
+          </section>
+          <section class="imageSection">
+            <img src="img/headshot2.jpg" alt="Jess Frawley">
+            </section>
+            <section>
+          
+
+              <section class="container">
+       
+                <div class = "card">
+                    <div class="card-image"></div>
+                    <i class='bx bxs-palette'></i>
+                    <h2>UX Research & Design</h2>
+                      <ul>
+                        <li>Figma</li>
+                        <li>Adobe Creative Suite</li>
+                        <li>Microsoft Office</li>
+                        <li>Information Architecture</li>
+                        <li>Prototyping</li>
+                        <li>Wireframing</li>
+                      </ul>
+                </div>
+                <div class = "card">
+                  <div class="card-image"></div>
+                  <i class='bx bx-bulb'></i>
+                    <h2>Communication</h2>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Leadership</li>
+                        <li>Team Work</li>
+                        <li>Content Management</li>
+                        <li>Time Management</li>
+                        <li>Organization</li>
+                      </ul>
+              </div>
+              <div class = "card">
+                <div class="card-image"></div>
+                <i class='bx bxs-file-html' ></i>
+                  <h2>Web Development</h2>
+                  <ul>
+                    <li>VS Code</li>
+                    <li>Github</li>
+                    <li>Wordpress</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                  </ul>
+            </div>
+            </section>
+      </div>
+    </div>
+
+    <h1 class="workHeader">Work</h1>
+
+    <section class="work">
+       <div class="caseStudy">
+
+        <div class="wrapper">
+          <img src="img/Voyager_mobile.jpg" alt="Voyager design">
+          <div class="text-box3">
+            <h2> Voyager </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere minus vero perspiciatis atque dicta itaque quos sed vel. Molestias explicabo adipisci facere ipsam quo ipsum itaque quidem non sed?</p>
+          </div>
+        </div>
+
+        <div class="wrapper2">
+          <img src="img/NDBH_mobile.jpg" alt="NDBH Redesign">
+          <div class="text-box">
+            <h2> North Dakota Badlands Horse </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere minus vero perspiciatis atque dicta itaque quos sed vel. Molestias explicabo adipisci facere ipsam quo ipsum itaque quidem non sed?</p>
+          </div>
+        </div>
+
+        <div class="wrapper3">
+          <img src="img/NRCS_mobile.jpg" alt="NRCS Redesign">
+          <div class="text-box2">
+            <h2>Natural Resource Conversation Service</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere minus vero perspiciatis atque dicta itaque quos sed vel. Molestias explicabo adipisci facere ipsam quo ipsum itaque quidem non sed?</p>
+          </div>
+        </div>
+
+
+      
+      </section>
+
+      <footer class="footer">
+        <div class="socailIcon">
+        <i class='bx bxl-linkedin-square'></i>
+        <i id="toggle" class='bx bx-envelope'></i>
+      </div>
+
+      <div class="emailForm">
+       
+        
+        <form id="dropDown" action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+      
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      </footer>
+    
+
+
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="script.js"></script>
+</html>
